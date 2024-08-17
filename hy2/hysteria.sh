@@ -388,7 +388,7 @@ EOF
     nohopurl="hysteria2://$auth_pwd@$last_ip:$port/?insecure=1&sni=$hy_domain#Misaka-Hysteria2"
     echo $nohopurl > /root/hy/url-nohop.txt
     nekobox="hysteria2://$auth_pwd@$last_ip:$port/?mport=last_port&insecure=1&sni=$hy_domain#Misaka-Hysteria2"
-    echo $url > /root/hy/nekobox.txt
+    echo $nekobox > /root/hy/nekobox.txt
 
     systemctl daemon-reload
     systemctl enable hysteria-server
